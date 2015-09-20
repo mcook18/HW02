@@ -21,6 +21,7 @@ int main(int argc, char* argv[])
 			" that contains the directory\n";
 		return 1;
 	}
+	
 	Phone_Directory the_directory;
 	the_directory.load_data(argv[1]);
 	process_commands(the_directory);

@@ -71,8 +71,8 @@ private:
 			number = new_number;
 		}
 	private:
-		string name;
-		string number;
+		std::string name;
+		std::string number;
 
 	};
 
